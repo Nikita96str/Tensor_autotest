@@ -1,31 +1,32 @@
 # Tensor_autotest
-Тестовое задание выполненное на Python 3 с помощью библиотеки Selenium 
-Описание файлов:
-base_app.py - содержит класс BaseClass, в котором описаны методы работы с webdriver
-conftest.py - файл для описания фикстур
-site_page.py - содержит класс PageClass, в котором описаны методы работы с элементами веб-страницы
-search_test.py - первый тест
-image_test.py - второй тест
+Job done in Python 3 using the Selenium library
 
-Первый тест: Поиск в яндексе
-1) Зайти на https://ya.ru/
-2) Проверить наличия поля поиска
-3) Ввести в поиск Тензор
-4) Проверить, что появилась таблица с подсказками (suggest)
-5) Нажать enter
-6) Проверить, что появилась страница результатов поиска
-7) Проверить 1 ссылка ведет на сайт tensor.ru
+Description of files:
+base_app.py - contains the BaseClass class, which describes methods for working with webdriver
+conftest.py - a file for describing fixtures
+site_page.py - contains the PageClass class, which describes methods for working with web page elements
+search_test.py - first test
+image_test.py - second test
 
-Второй тест: Картинки на яндексе
-1) Зайти на ya.ru
-2) Проверить, что кнопка меню присутствует на странице
-3) Открыть меню, выбрать “Картинки”
-4) Проверить, что перешли на url https://yandex.ru/images/
-5) Открыть первую категорию
-6) Проверить, что название категории отображается в поле поиска
-7) Открыть 1 картинку
-8) Проверить, что картинка открылась
-9) Нажать кнопку вперед
-10) Проверить, что картинка сменилась
-11) Нажать назад
-12) Проверить, что картинка осталась из шага 8
+First task: Yandex search
+1) Go to https://ya.ru/
+2) Check if there is a search field
+3) Enter in the search Tensor
+4) Check that a table with hints (suggest) has appeared
+5) Press enter
+6) Check that the search results page has appeared
+7) Check 1 link leads to tensor.ru
+
+Second task: Pictures on Yandex
+1) Go to ya.ru
+2) Check that the menu button is present on the page
+3) Open the menu, select "Pictures"
+4) Check that you have switched to the url https://yandex.ru/images/
+5) Open the first category
+6) Check that the category name is displayed in the search box
+7) Open 1 picture
+8) Check that the picture has opened
+9) Press forward button
+10) Check that the picture has changed
+11) Press back
+12) Check that the picture is left from step 8
